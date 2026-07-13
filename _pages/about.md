@@ -1,56 +1,135 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
+layout: home
+title: "Yang Song | Machine Learning Researcher"
+excerpt: "Yang Song develops Bayesian and agentic AI methods for science and health."
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<section class="home-hero" id="about" aria-labelledby="hero-title">
+  <div class="home-hero__heading">
+    <p class="eyebrow">Machine Learning · AI for Science</p>
+    <h1 id="hero-title">Hello, I’m <span>Yang Song</span> <small>(宋扬)</small>.</h1>
+  </div>
+  <div class="home-hero__copy">
+    <p class="home-hero__lead">I develop Bayesian and agentic AI methods for scientific and biomedical problems.</p>
+    <p>I am an MSc student in <strong>IT and Cognition</strong> at the <strong>University of Copenhagen</strong>. My work spans Bayesian machine learning, AI agents, foundation models, and healthcare data science.</p>
+    <div class="home-meta" aria-label="Current location and affiliation">
+      <span>Based in Copenhagen, Denmark</span>
+      <span>MSc at University of Copenhagen</span>
+    </div>
+    <div class="interest-list" aria-label="Research interests">
+      <span>Bayesian ML</span>
+      <span>AI Agents</span>
+      <span>Foundation Models</span>
+      <span>AI for Science</span>
+      <span>Healthcare AI</span>
+    </div>
+    <aside class="phd-note">
+      <strong>Open to PhD opportunities.</strong>
+      I am seeking PhD positions starting in Spring or Summer 2027.
+    </aside>
+    <div class="profile-links" aria-label="Academic and professional profiles">
+      <a href="https://scholar.google.com/citations?user=93TZDEsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
+      <a href="https://github.com/yangsong-research" target="_blank" rel="noopener noreferrer"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7A11.5 11.5 0 0 0 8.36 23.1c.58.11.79-.25.79-.56v-2.23c-3.22.7-3.9-1.37-3.9-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.75.4-1.27.74-1.56-2.57-.29-5.27-1.29-5.27-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.47.11-3.05 0 0 .97-.31 3.16 1.18A10.9 10.9 0 0 1 12 6.11c.98 0 1.95.13 2.87.39 2.19-1.49 3.16-1.18 3.16-1.18.63 1.58.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.4-2.71 5.38-5.29 5.67.42.36.79 1.06.79 2.14v3.27c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg><span>GitHub</span></a>
+      <a href="https://www.linkedin.com/in/yang-song-60365931a/" target="_blank" rel="noopener noreferrer"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V8.99h3.41v1.57h.05a3.75 3.75 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.32 7.42a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.03H3.54V8.99H7.1v11.46Z"/></svg><span>LinkedIn</span></a>
+    </div>
+  </div>
+  <figure class="home-portrait">
+    <img src="{{ '/images/yang-song.jpg' | relative_url }}" alt="Portrait of Yang Song">
+    <figcaption>Photo taken at ICML 2026.</figcaption>
+  </figure>
+</section>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<section class="home-section" id="publications" aria-labelledby="publications-title">
+  <div class="section-heading">
+    <p class="section-number">01</p>
+    <div>
+      <p class="eyebrow">Research output</p>
+      <h2 id="publications-title">Featured research</h2>
+    </div>
+  </div>
+  <div class="paper-list">
+    <article class="paper-card">
+      <a class="paper-visual" href="https://arxiv.org/abs/2605.30179" target="_blank" rel="noopener noreferrer" aria-label="Open iLoRA on arXiv">
+        <img src="{{ '/images/ilora-framework.png' | relative_url }}" alt="Framework overview of iLoRA">
+      </a>
+      <div class="paper-copy">
+        <p class="publication-status">ICML 2026</p>
+        <h3>iLoRA: Bayesian Low-Rank Adaptation with Latent Interaction Graphs for Microbiome Diagnosis</h3>
+        <p class="paper-authors"><strong>Yang Song</strong>, Yixuan Zhang, Lingfa Meng, Tongyuan Hu, Haizhou Shi, Hao Wang, Samir Bhatt, and Hengguan Huang.</p>
+        <p>Bayesian graph-conditioned LoRA for jointly learning diagnostic predictions, latent interaction structures, and calibrated uncertainty.</p>
+        <a class="paper-link" href="https://arxiv.org/abs/2605.30179" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv:2605.30179</a>
+      </div>
+    </article>
+    <article class="paper-card">
+      <a class="paper-visual" href="https://arxiv.org/abs/2606.09433" target="_blank" rel="noopener noreferrer" aria-label="Open BSLI on arXiv">
+        <img src="{{ '/images/bsli-framework.png' | relative_url }}" alt="Method overview of Bayesian Selective Latent Inference">
+      </a>
+      <div class="paper-copy">
+        <p class="publication-status">Preprint · 2026</p>
+        <h3>Bayesian Selective Latent Inference for Wastewater-First Influenza Monitoring</h3>
+        <p class="paper-authors">Yixuan Zhang, <strong>Yang Song</strong>, Hao Wang, Samir Bhatt, and Hengguan Huang.</p>
+        <p>A selective Bayesian decision framework that learns when to query additional surveillance evidence, predict, or abstain.</p>
+        <a class="paper-link" href="https://arxiv.org/abs/2606.09433" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv:2606.09433</a>
+      </div>
+    </article>
+  </div>
+</section>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<section class="home-section" id="experience" aria-labelledby="experience-title">
+  <div class="section-heading">
+    <p class="section-number">02</p>
+    <div>
+      <p class="eyebrow">Background</p>
+      <h2 id="experience-title">Education & experience</h2>
+    </div>
+  </div>
+  <div class="timeline">
+    <article class="timeline-item">
+      <p class="timeline-date">Jun 2026 — Present</p>
+      <div>
+        <h3>Research Assistant</h3>
+        <p class="timeline-place">School of Data Science, The Chinese University of Hong Kong, Shenzhen · Full-time</p>
+        <p>Supervised by <a href="https://daizhongxiang.github.io/" target="_blank" rel="noopener noreferrer">Asst. Prof. Zhongxiang Dai</a>.</p>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-date">2024 — Present</p>
+      <div>
+        <h3>MSc in IT and Cognition</h3>
+        <p class="timeline-place">University of Copenhagen · Denmark</p>
+        <p>Working on <em>Phylo-anything: Universal Phylogenetic Inference with Foundation Models</em>, co-supervised by <a href="https://scholar.google.com/citations?user=-vGMjmwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Anders Krogh</a> and <a href="https://sites.google.com/view/huanghengguan?usp=sharing" target="_blank" rel="noopener noreferrer">Asst. Prof. Hengguan Huang</a>.</p>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-date">2019 — 2023</p>
+      <div>
+        <h3>BSc(Eng) in Internet of Things Engineering</h3>
+        <p class="timeline-place">Queen Mary University of London & Beijing University of Posts and Telecommunications</p>
+        <p>Joint programme. My undergraduate thesis, <em>Real-time Behaviour Anomaly Detection for Industrial Robot Arms on Edge Computing</em>, was supervised by <a href="https://scholar.google.com/citations?user=HZ10QK4AAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener noreferrer">Prof. Jonathan Loo</a>.</p>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-date">2022 — 2023</p>
+      <div>
+        <h3>Early industry experience</h3>
+        <p class="timeline-place">AI healthcare · Cloud infrastructure · Medical imaging</p>
+        <p>Worked across product, data, and back-end engineering roles, contributing to healthcare AI products, IoT infrastructure, and medical image annotation systems.</p>
+      </div>
+    </article>
+  </div>
+</section>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<section class="contact-panel" id="contact" aria-labelledby="contact-title">
+  <p class="eyebrow">Let’s connect</p>
+  <h2 id="contact-title">Research, collaboration, or PhD opportunities.</h2>
+  <p>I am especially interested in PhD opportunities beginning in Spring or Summer 2027.</p>
+  <div class="email-list" aria-label="Email addresses">
+    <p><span>University</span> rkm483 [at] alumni [dot] ku [dot] dk</p>
+    <p><span>Personal</span> yangsong [dot] dk [at] gmail [dot] com</p>
+  </div>
+</section>

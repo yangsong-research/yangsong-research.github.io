@@ -18,8 +18,17 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+          <li id="color-theme-toggle" class="masthead__menu-item persist tail">
+            <a role="button" tabindex="0" aria-label="Toggle light and dark mode" title="Toggle light and dark mode">
+              <span class="theme-toggle__light-action">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.91-.1-1.35A7 7 0 0 1 13.35 3.1C12.91 3.04 12.46 3 12 3Zm0 2.02a9 9 0 0 0 6.98 6.98A7 7 0 1 1 12 5.02Z"/></svg>
+                <span>Dark mode</span>
+              </span>
+              <span class="theme-toggle__dark-action">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 2.1a2.9 2.9 0 1 1 0 5.8 2.9 2.9 0 0 1 0-5.8ZM11 1h2v4h-2V1Zm0 18h2v4h-2v-4ZM1 11h4v2H1v-2Zm18 0h4v2h-4v-2ZM3.51 4.93l1.42-1.42 2.83 2.83-1.42 1.42-2.83-2.83Zm12.73 12.73 1.42-1.42 2.83 2.83-1.42 1.42-2.83-2.83Zm2.83-14.15 1.42 1.42-2.83 2.83-1.42-1.42 2.83-2.83ZM6.34 16.24l1.42 1.42-2.83 2.83-1.42-1.42 2.83-2.83Z"/></svg>
+                <span>Light mode</span>
+              </span>
+            </a>
           </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
