@@ -344,7 +344,9 @@ html[data-theme="dark"] .academic-home { --global-text-color-light: #d8dfdc; }
 
 @media (max-width: 760px) {
   .academic-home .home-hero { grid-template-columns: 1fr; min-height: auto; padding-top: 2rem; }
-  .home-portrait { width: 100%; max-width: 430px; margin-top: 0; justify-self: center; }
+  .home-hero__heading { order: 1; }
+  .home-portrait { width: 100%; max-width: 430px; margin-top: 0; order: 2; justify-self: center; }
+  .home-hero__copy { order: 3; }
   .section-heading { grid-template-columns: 40px 1fr; }
   .research-grid { grid-template-columns: 1fr; }
   .paper-card { grid-template-columns: 1fr; }
