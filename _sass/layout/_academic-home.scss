@@ -68,6 +68,7 @@ html[data-theme="dark"] .theme-toggle__dark-action { display: inline-flex; }
     top: 0;
     right: 0;
   }
+  .greedy-nav button:not(.hidden) ~ .visible-links #color-theme-toggle { right: 3.25rem; }
 }
 
 .academic-home {
@@ -84,11 +85,55 @@ html[data-theme="dark"] .academic-home { --global-text-color-light: #d8dfdc; }
   column-gap: clamp(2rem, 6vw, 6rem);
   row-gap: clamp(.75rem, 1.5vw, 1.25rem);
   align-items: start;
-  min-height: calc(100vh - 10rem);
+  align-content: start;
+  padding-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  margin-bottom: 1.1rem;
+  padding: .42rem .9rem .42rem .75rem;
+  border: 1px solid color-mix(in srgb, var(--home-accent) 30%, transparent);
+  border-radius: 999px;
+  color: var(--home-accent);
+  background: var(--home-soft);
+  font-size: .78rem;
+  font-weight: 750;
+  letter-spacing: .02em;
+  text-decoration: none;
+}
+
+.status-pill:hover { border-color: var(--home-accent); }
+
+.status-pill__dot {
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+  background: #3fa27a;
+  box-shadow: 0 0 0 .22rem color-mix(in srgb, #3fa27a 22%, transparent);
 }
 
 .home-hero__heading { grid-column: 1 / -1; }
-.home-hero__heading .eyebrow { margin-bottom: .35rem !important; }
+.home-hero__role {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4rem 1rem;
+  margin: 1.1rem 0 .75rem !important;
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-border-color);
+  color: var(--global-text-color-light);
+  font-size: .9rem !important;
+  font-weight: 650;
+}
+
+.home-hero__role span + span::before {
+  margin-right: 1rem;
+  color: var(--home-accent);
+  content: "•";
+}
 .home-hero__heading h1 { max-width: none; margin-bottom: 0; }
 .home-hero__copy .home-hero__lead { margin-top: 0; }
 
@@ -194,7 +239,7 @@ html[data-theme="dark"] .academic-home { --global-text-color-light: #d8dfdc; }
   text-transform: uppercase;
 }
 
-.home-portrait { margin: 1rem 0 0; }
+.home-portrait { width: 100%; max-width: 290px; margin: 0; justify-self: end; align-self: center; }
 .home-portrait img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 60% center; border-radius: 40% 40% 1.25rem 1.25rem; box-shadow: 0 28px 80px var(--home-shadow); filter: saturate(.88) contrast(1.02); }
 .home-portrait figcaption { margin-top: .75rem; color: var(--global-text-color-light); font-family: $sans-serif; text-align: center; }
 
@@ -210,7 +255,7 @@ html[data-theme="dark"] .academic-home { --global-text-color-light: #d8dfdc; }
 .academic-home .home-button:hover { transform: translateY(-2px); border-color: var(--home-accent); }
 .academic-home .home-button--primary { color: #fff; background: var(--home-accent-deep); border-color: var(--home-accent-deep); }
 
-.home-section { padding: clamp(5rem, 10vw, 9rem) 0; border-top: 1px solid var(--global-border-color); }
+.home-section { padding: clamp(4rem, 7vw, 6rem) 0; border-top: 1px solid var(--global-border-color); }
 .section-heading { display: grid; grid-template-columns: 70px 1fr; gap: 1.5rem; margin-bottom: 3rem; }
 .section-number { margin: .15rem 0 0 !important; color: var(--global-text-color-light); font-size: .8rem !important; font-variant-numeric: tabular-nums; }
 .section-heading h2 { margin: .5rem 0 0; padding: 0; border: 0; font-family: $serif; font-size: clamp(2.25rem, 5vw, 4.5rem); font-weight: 500; letter-spacing: -.055em; line-height: 1; }

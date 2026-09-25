@@ -11,16 +11,16 @@ redirect_from:
 
 <section class="home-hero" id="about" aria-labelledby="hero-title">
   <div class="home-hero__heading">
-    <p class="eyebrow">Machine Learning · AI for Science</p>
+    <a class="status-pill" href="#contact"><span class="status-pill__dot" aria-hidden="true"></span>Open to PhD positions · Spring/Summer 2027</a>
     <h1 id="hero-title">Hello, I’m <span>Yang Song</span> <small>(宋扬)</small>.</h1>
+    <p class="home-hero__role">
+      <span>MSc student, University of Copenhagen</span>
+      <span>Copenhagen, Denmark</span>
+    </p>
   </div>
   <div class="home-hero__copy">
     <p class="home-hero__lead">I develop Bayesian and agentic AI methods for scientific and biomedical problems.</p>
-    <p>I am an MSc student in <strong>IT and Cognition</strong> at the <strong>University of Copenhagen</strong>. My work spans Bayesian machine learning, AI agents, foundation models, and healthcare data science.</p>
-    <div class="home-meta" aria-label="Current location and affiliation">
-      <span>Based in Copenhagen, Denmark</span>
-      <span>MSc at University of Copenhagen</span>
-    </div>
+    <p>I study <strong>IT and Cognition</strong> at the <strong>University of Copenhagen</strong>. My work spans Bayesian machine learning, AI agents, foundation models, and healthcare data science.</p>
     <div class="interest-list" aria-label="Research interests">
       <span>Bayesian ML</span>
       <span>AI Agents</span>
@@ -28,10 +28,6 @@ redirect_from:
       <span>AI for Science</span>
       <span>Healthcare AI</span>
     </div>
-    <aside class="phd-note">
-      <strong>Open to PhD opportunities.</strong>
-      I am seeking PhD positions starting in Spring or Summer 2027.
-    </aside>
     <div class="profile-links" aria-label="Academic and professional profiles">
       <a href="https://scholar.google.com/citations?user=93TZDEsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a>
       <a href="https://github.com/yangsong-research" target="_blank" rel="noopener noreferrer"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7A11.5 11.5 0 0 0 8.36 23.1c.58.11.79-.25.79-.56v-2.23c-3.22.7-3.9-1.37-3.9-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.75.4-1.27.74-1.56-2.57-.29-5.27-1.29-5.27-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.47.11-3.05 0 0 .97-.31 3.16 1.18A10.9 10.9 0 0 1 12 6.11c.98 0 1.95.13 2.87.39 2.19-1.49 3.16-1.18 3.16-1.18.63 1.58.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.4-2.71 5.38-5.29 5.67.42.36.79 1.06.79 2.14v3.27c0 .31.21.68.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg><span>GitHub</span></a>
@@ -90,7 +86,15 @@ redirect_from:
   </div>
   <div class="timeline">
     <article class="timeline-item">
-      <p class="timeline-date">Jun 2026 — Present</p>
+      <p class="timeline-date">May 2026 — Present</p>
+      <div>
+        <h3>Data Scientist</h3>
+        <p class="timeline-place"><a href="https://deepdelved.com/" target="_blank" rel="noopener noreferrer">Deep Delved</a> · Denmark</p>
+        <p>Working with <a href="https://lingfameng.com/en/" target="_blank" rel="noopener noreferrer">Lingfa Meng</a> on battery energy storage system (BESS) benchmarking and automated reporting.</p>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-date">Jun 2026 — Aug 2026</p>
       <div>
         <h3>Research Assistant</h3>
         <p class="timeline-place">School of Data Science, The Chinese University of Hong Kong, Shenzhen · Full-time</p>
@@ -119,6 +123,25 @@ redirect_from:
         <h3>Early industry experience</h3>
         <p class="timeline-place">AI healthcare · Cloud infrastructure · Medical imaging</p>
         <p>Worked across product, data, and back-end engineering roles, contributing to healthcare AI products, IoT infrastructure, and medical image annotation systems.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="home-section" id="awards" aria-labelledby="awards-title">
+  <div class="section-heading">
+    <p class="section-number">03</p>
+    <div>
+      <p class="eyebrow">Recognition</p>
+      <h2 id="awards-title">Grants & awards</h2>
+    </div>
+  </div>
+  <div class="timeline">
+    <article class="timeline-item">
+      <p class="timeline-date">2026</p>
+      <div>
+        <h3>Danish Data Science Academy (DDSA) <a href="https://ddsa.dk/travelgrants/" target="_blank" rel="noopener noreferrer">Travel Grants</a></h3>
+        <p>Awarded funding to attend ICML 2026.</p>
       </div>
     </article>
   </div>
