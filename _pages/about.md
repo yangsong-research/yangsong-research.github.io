@@ -133,7 +133,7 @@ redirect_from:
     <p class="section-number">03</p>
     <div>
       <p class="eyebrow">Recognition</p>
-      <h2 id="awards-title">Grants & awards</h2>
+      <h2 id="awards-title">Awards & service</h2>
     </div>
   </div>
   <div class="timeline">
@@ -142,6 +142,13 @@ redirect_from:
       <div>
         <h3>Danish Data Science Academy (DDSA) <a href="https://ddsa.dk/travelgrants/" target="_blank" rel="noopener noreferrer">Travel Grants</a></h3>
         <p>Awarded funding to attend ICML 2026.</p>
+      </div>
+    </article>
+    <article class="timeline-item">
+      <p class="timeline-date">2026</p>
+      <div>
+        <h3>Reviewer</h3>
+        <p>ICLR 2027 · ACL Rolling Review (ARR)</p>
       </div>
     </article>
   </div>
