@@ -62,14 +62,14 @@ redirect_from:
       </div>
     </article>
     <article class="paper-card">
-      <a class="paper-visual" href="https://arxiv.org/abs/2606.09433" target="_blank" rel="noopener noreferrer" aria-label="Open BSLI on arXiv">
-        <img src="{{ '/images/bsli-framework.png' | relative_url }}" alt="Method overview of Bayesian Selective Latent Inference">
+      <a class="paper-visual" href="https://arxiv.org/abs/2606.09433" target="_blank" rel="noopener noreferrer" aria-label="Open SLD on arXiv">
+        <img src="{{ '/images/bsli-framework.png' | relative_url }}" alt="Method overview of Subset Lattice Distillation">
       </a>
       <div class="paper-copy">
         <p class="publication-status">Preprint · 2026</p>
-        <h3>Bayesian Selective Latent Inference for Wastewater-First Influenza Monitoring</h3>
-        <p class="paper-authors">Yixuan Zhang, <strong>Yang Song</strong>, Hao Wang, Samir Bhatt, and Hengguan Huang.</p>
-        <p>A selective Bayesian decision framework that learns when to query additional surveillance evidence, predict, or abstain.</p>
+        <h3>Evidence Acquisition and Stopping via Lattice Distillation</h3>
+        <p class="paper-authors">Yixuan Zhang, <strong>Yang Song</strong>, Jiayi Zhang, Jingqi Sun, Hao Wang, Samir Bhatt, and Hengguan Huang.</p>
+        <p>Subset Lattice Distillation: planning cost-aware query/stop decisions over evidence-subset lattices and distilling them into an online controller, evaluated on influenza monitoring.</p>
         <a class="paper-link" href="https://arxiv.org/abs/2606.09433" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv" aria-hidden="true"></i> arXiv:2606.09433</a>
       </div>
     </article>
