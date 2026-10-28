@@ -63,7 +63,7 @@ redirect_from:
     </article>
     <article class="paper-card">
       <a class="paper-visual" href="https://arxiv.org/abs/2606.09433" target="_blank" rel="noopener noreferrer" aria-label="Open SLD on arXiv">
-        <img src="{{ '/images/bsli-framework.png' | relative_url }}" alt="Method overview of Subset Lattice Distillation">
+        <img src="{{ '/images/sld-framework.png' | relative_url }}" alt="Method overview of Subset Lattice Distillation">
       </a>
       <div class="paper-copy">
         <p class="publication-status">Preprint · 2026</p>
